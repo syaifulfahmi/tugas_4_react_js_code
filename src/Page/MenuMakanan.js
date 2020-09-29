@@ -52,7 +52,7 @@ class MenuMakanan extends Component {
 
 	uduk() {
 		this.setState ({
-			pesan: "Uduk",
+			pesan: "Nasi Uduk",
 			jumlah: this.state.jumlah +1,
 			tampil: true
 		})
@@ -60,7 +60,7 @@ class MenuMakanan extends Component {
 
 	kuning() {
 		this.setState ({
-			pesan: "Kuning",
+			pesan: "Nasi Kuning",
 			jumlah: this.state.jumlah +1,
 			tampil: true
 		})
